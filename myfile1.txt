@@ -2,3 +2,22 @@ wht are you doing ?
 
 grind started 
 
+whaat is going on 
+
+i dont know
+
+hello
+
+
+
+
+			public void BCa() {
+
+				String path = System.getProperty("user.dir") + "/drivers/chromedriver.exe";
+
+				System.setProperty("webdriver.chrome.driver", path);
+				driver = new ChromeDriver();
+
+				driver.get("file:///G:/selenium/template_7%20(1)/template_7/alerts.html");
+
+			}
